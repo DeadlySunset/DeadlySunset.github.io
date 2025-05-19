@@ -1,0 +1,186 @@
+/* styles.css */
+:root {
+  --primary-color: #a5d63c; /* ярко-зелёный */
+  --secondary-color: #ffd93b; /* жёлтый */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary-custom {
+  background-color: var(--secondary-color);
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-primary-custom:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+
+.carousel-inner img {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  max-height: 800px;
+  max-width: 1000%;
+  width: auto;
+  margin: auto;
+}
+
+input.form-control {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+.card-img-top-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* отступы, можно подстроить */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: white; /* фон, если нужно */
+}
+
+.card-img-top.img-1x1 {
+  width: 100px; /* или auto */
+  height: auto;
+  object-fit: contain; /* сохраняет пропорции */
+}
+
+
+/* Кнопка копирования */
+.copyable {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.copyable:hover {
+  opacity: 0.8;
+}
+
+/* Кнопка "Забронировать" */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--secondary-color);
+  color: #000;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-weight: bold;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.floating-button:hover {
+  background-color: #ffcc00;
+}
+
+/* Блок про День Рождения */
+.birthday-section {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-top: 3px solid var(--primary-color);
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+
+.about-us {
+  background: linear-gradient(135deg, #fcfff0, #fdfcfb);
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 1s ease;
+}
+
+.text-pink {
+  color: #e4b846;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.highlight {
+  color: #7ebd42;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
