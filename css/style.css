@@ -9,6 +9,10 @@ body {
   background-color: #fff;
   color: #333;
   line-height: 1.6;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+
 }
 html {
   scroll-behavior: smooth;
