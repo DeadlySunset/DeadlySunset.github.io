@@ -6,9 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>Детский центр "Игромир"</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <meta name="description" content="">
+
+
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -27,44 +34,47 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
+
 </head>
 
 <body>
-<header class="bg-primary-custom text-white shadow py-3">
-  <div class="container d-flex align-items-center">
-    <div class="me-3" style="width: 80px; height: 80px;">
-      <img src="img/LogoIgroMir.png" class="img-fluid" alt="Логотип центра">
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <img src="img/LogoV2.png" alt="Игромир Логотип">
     </div>
-    <div>
-      <h1 class="h3 fw-bold mb-1">Игромир | Детский развлекательный центр</h1>
-      <p class="mb-0">Игровая зона и кафе — всё для яркого детства!</p>
+    <div class="header-text">
+      <div class="info-block">
+        <span class="label">Общий телефон</span>
+        <span class="value">+7 (960) 358-27-31</span>
+      </div>
+      <div class="info-block">
+        <span class="label">Режим работы</span>
+        <span class="value">10:00–21:00</span>
+      </div>
     </div>
   </div>
 </header>
 
-
-<section class="container py-5 about-us">
-  <div class="row align-items-center">
-    <div class="col-md-6 mb-4 mb-md-0">
-      <h2 class="fw-semibold mb-3 text-pink">🎉 О нас</h2>
-      <p><strong>«Игромир»</strong> — это <span class="highlight">яркая игровая зона с уютным кафе</span>, где дети могут весело провести время, а родители — спокойно отдохнуть.</p>
-      <p>Мы готовим вкусную еду <span class="highlight">из-под ножа</span>, предлагаем напитки, соки, газировки и устраиваем <span class="highlight">незабываемые праздники</span> с улыбками и весельем.</p>
-      <p>🎈 <strong>Бронирование дней рождений</strong>, включая <strong>VIP-зону</strong>, доступно заранее:</p>
-      <a href="#birthday-booking" class="btn btn-primary mt-3">Бронирование и контакты</a>
-
+<section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1 class="hero-title">Создавайте яркое детство вместе с нами!</h1>
+      <p class="hero-description">
+        Предлагаем яркое пространство для детей и родителей: игровая зона с развивающими активностями, уютное кафе и море веселья под одной крышей.
+      </p>
+      <a href="#form" class="hero-button">Забронировать</a>
     </div>
-    <div class="col-md-6">
-      <div class="ratio ratio-1x1">
-        <img src="img/nitro1.webp" class="img-fluid rounded shadow-sm object-fit-cover" alt="Фото центра">
-      </div>
+    <div class="hero-image">
+      <img src="img/NitroKids.png" alt="Дети Nitro" />
     </div>
   </div>
 </section>
 
-
 <section class="py-5" style="background-color: #f9f9f9">
+  <h2 class="text-center fw-semibold mb-5">Наши зоны</h2>
   <div class="container">
-    <h2 class="text-center fw-semibold mb-5">Наши зоны</h2>
+
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card h-100 shadow-sm border-0">
@@ -88,7 +98,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
         <div class="card h-100 shadow-sm border-0">
           <div class="card-img-top-wrapper">
@@ -137,364 +146,62 @@
   </div>
 </section>
 
-
-<section class="py-5 bg-white">
-  <div class="container">
-    <h2 class="text-center fw-semibold mb-5">Меню</h2>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-
-          <div class="card-body">
-            <h5 class="card-title">🥔 Закуски / Снэки</h5>
-            <h5 class="card-title">Картофель фри — 130₽</h5>
-            <p class="card-text">100 г картофеля / 30 г кетчупа</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Картофельные дольки — 150₽</h5>
-            <p class="card-text">150 г картофеля в панировке со специями / 30 г кетчупа</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Картофельные шарики — 150₽</h5>
-            <p class="card-text">150 г пюре в панировке / 30 г кетчупа</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Куриные наггетсы — 170₽</h5>
-            <p class="card-text">6 шт. / 30 г кетчупа</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Куриные стрипсы — 200₽</h5>
-            <p class="card-text">3 острых стрипса в панировке / 30 г кетчупа</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сырные палочки — 200₽</h5>
-            <p class="card-text">6 шт. моцареллы в панировке</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сет «Криспи» — 550₽</h5>
-            <p class="card-text">Картофель фри, дольки, шарики / наггетсы / стрипсы / сырные палочки — 350 г / 35 г кетчупа</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍔 Бургеры</h5>
-            <h5 class="card-title">Гамбургер говяжий — 330₽</h5>
-            <p class="card-text">Говядина, булка, помидор, корнишон, салат, кетчуп, лук</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Гамбургер куриный — 300₽</h5>
-            <p class="card-text">Курица, булка, помидор, корнишон, салат, майонез, лук</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Чизбургер говяжий — 350₽</h5>
-            <p class="card-text">Говядина, булка, сыр чеддер, помидор, салат, кетчуп</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Чизбургер куриный — 320₽</h5>
-            <p class="card-text">Курица, булка, сыр чеддер, помидор, салат, майонез</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Black Бургер говяжий — 360₽</h5>
-            <p class="card-text">Черная булка, говядина, сыр чеддер, бекон, овощи, барбекю</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Black Бургер куриный — 350₽</h5>
-            <p class="card-text">Черная булка, курица, сыр чеддер, бекон, овощи, барбекю</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍕 Пицца (40 см)</h5>
-            <h5 class="card-title">Маргарита — 600₽</h5>
-            <p class="card-text">Соус томатный, моцарелла / 870 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Пеппероне — 680₽</h5>
-            <p class="card-text">Пепперони, соус, моцарелла, помидоры / 970 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Палермо — 760₽</h5>
-            <p class="card-text">Курица, помидоры, шампиньоны, маслины, моцарелла / 985 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Игромир — 800₽</h5>
-            <p class="card-text">Пепперони, бекон, грибы, корнишоны, моцарелла / 1030 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Четыре сыра — 840₽</h5>
-            <p class="card-text">Моцарелла, чеддер, гауда, пармезан / 970 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Цезарь — 840₽</h5>
-            <p class="card-text">Курица, бекон, айсберг, сыр, корнишоны / 985 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Мясная — 900₽</h5>
-            <p class="card-text">Ветчина, бекон, курица BBQ, помидоры, моцарелла / 1050 г</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍽️ Горячие блюда</h5>
-            <h5 class="card-title">Пельмени 110 г (7 шт) — 150₽</h5>
-            <p class="card-text">Говядина и свинина</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Пельмени 230 г (15 шт) — 190₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Суп "Легкий" 320 г — 200₽</h5>
-            <p class="card-text">Овощи, лапша, яйцо</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Суп "Куриный" 350 г — 250₽</h5>
-            <p class="card-text">Курица, овощи, лапша</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Суп "Говяжий" 350 г — 300₽</h5>
-            <p class="card-text">Говядина, овощи, лапша</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Макароны отварные 145 г — 80₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Гречка отварная 145 г — 100₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Пюре картофельное 145 г — 100₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Котлета куриная 100 г — 100₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Котлета говяжья 100 г — 130₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сосиски отварные (2 шт) — 100₽</h5>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-150 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🥗 Салаты</h5>
-            <h5 class="card-title">Тайский 200 г — 390₽</h5>
-            <p class="card-text">Говядина, овощи, кунжут, соевый соус</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Цезарь с курицей 220 г — 320₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Обжорка 180 г — 280₽</h5>
-            <p class="card-text">Говядина, картофель, яйцо, сол. огурец, лук, майонез</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Хрумтик 180 г — 270₽</h5>
-            <p class="card-text">Бекон, сухари, овощи, салат, оливковое масло</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Каприз 180 г — 260₽</h5>
-            <p class="card-text">Курица, картофель, яйцо, майонез, сол. огурец</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Минутка 180 г — 250₽</h5>
-            <p class="card-text">Салат, моцарелла, овощи, чеснок, майонез</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Летний 180 г — 220₽</h5>
-            <p class="card-text">Овощи, салат, зелень, оливковое масло</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-150 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍰 Десерты / Мороженое / Коктейли</h5>
-            <h5 class="card-title">Донат ассорти — 120₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Чизкейк ассорти — 170₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Торт ассорти — 200₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Мороженое ассорти — 60₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Добавки к мороженому (топпинг/посыпка 15 г) — 30₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Молочный коктейль (200 г) — 170₽</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-150 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍇 Нарезки</h5>
-            <h5 class="card-title">Фруктовая 550 г — 600₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Овощная 250 г — 300₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сырная с сухарями 250 г — 550₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сырная с медом 250 г — 600₽</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-150 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🥣 Соусы </h5>
-            <h5 class="card-title">Томатный — 40₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сырный — 40₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Цезарь — 40₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Барбекю — 40₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Майонез — 40₽</h5>
-            <p class="card-text">30 г</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сметана — 50₽</h5>
-            <p class="card-text">30 г</p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
+<section class="facks-section">
+  <div class="container-facks">
+    <img src="img/Facks.png" alt="Facks" class="facks-image">
   </div>
 </section>
 
-<section class="py-5 bg-white">
-  <div class="container">
-    <h2 class="text-center fw-semibold mb-5">Напитки</h2>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">🍵 Чай</h5>
-            <h5 class="card-title">Южная Индия (черный) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Димбула Цейлон (черный) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Бергамот (черный) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Сказки Шахерезады (черный/зеленый) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Экзотика фруктов (зеленый) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Лимон с имбирем (зеленый) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Молочный улун (Най Сян Цзинь Сюань) — 250₽</h5>
-            <p class="card-text">800 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Гринфилд (пакетик) — 30₽</h5>
-            <p class="card-text">250 мл</p>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Долька лимона — 5₽</h5>
-          </div>
-        </div>
+<section id="form" class="form-section">
+  <div class="form-container">
+    <img src="img/Form.png" alt="Форма" class="form-bg">
+    <div class="form-content">
+      <div class="form-image-left">
+        <img src="img/Phone.png" alt="Телефон">
       </div>
-      <div class="col">
-        <div class="card h-150 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">☕ Кофе и горячий шоколад</h5>
-            <h5 class="card-title">Эспрессо (75 мл) — 45₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Американо (200 мл) — 70₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Капучино / Латте (200 мл) — 80₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Мокачино (200 мл) — 75₽</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Горячий шоколад (300 мл) — 60₽</h5>
-          </div>
-        </div>
+      <div class="form-text-right">
+        <h2 class="form-title">Забронируй столик или VIP-зону</h2>
+        <p class="form-description">
+          Уточним пожелания и предложим удобное и свободное время для бронирования под ваш праздник.
+        </p>
+        <form action="https://formspree.io/f/movdbbav" method="POST" class="booking-form">
+          <input type="text" name="name" placeholder="Ваше имя" required>
+          <input type="tel" name="phone" placeholder="Телефон" required>
+          <button type="submit">Отправить</button>
+        </form>
       </div>
     </div>
   </div>
 </section>
 
+<section class="hero-section d-flex align-items-center justify-content-center text-center" style="height: 250px; background: url('img/Section1.png') center center / auto 245px no-repeat;">
+  <div>
+    <h1 class="text-white fw-light" style="font-family: Raleway; font-size: 35px;">
+      Или просто напишите в мессенджер
+    </h1>
+    <p class="text-white fw-extralight" style="font-family: Raleway; font-size: 18px;">
+      Мы выберем время для вашего торжества по переписке!
+    </p>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+      <a href="https://vk.com/club91030024" target="_blank">
+        <img src="img/vk.png" alt="VK" width="80" height="80" />
+      </a>
+      <a href="https://t.me/igromir_volsk" target="_blank">
+        <img src="img/tg.png" alt="Telegram" width="80" height="80" />
+      </a>
+      <a href="https://wa.me/79603582731" target="_blank">
+        <img src="img/ws.png" alt="WhatsApp" width="80" height="80" />
+      </a>
+    </div>
+  </div>
+</section>
+
+
 <section class="py-5 bg-white">
+  <h2 class="text-center fw-semibold mb-5">Меню</h2>
   <div class="container">
-    <h2 class="text-center fw-semibold mb-5">Фотогалерея</h2>
-    <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner rounded overflow-hidden">
-        <div class="carousel-item active">
-          <img src="img/Photo/IgroMir1.jpg" class="d-block w-100 object-fit-cover" alt="Фото 1">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir2.jpg" class="d-block w-100 object-fit-cover" alt="Фото 2">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir3.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir4.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir5.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir6.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir7.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir8.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Photo/IgroMir9.jpg" class="d-block w-100 object-fit-cover" alt="Фото 3">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Назад</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Вперед</span>
-      </button>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="drinks-container">
+      <!-- JS вставит карточки сюда -->
     </div>
   </div>
 </section>
@@ -503,75 +210,115 @@
 
 
 
-<section id="birthday-booking"  class="py-5 bg-light">
-  <div class="container text-center">
-    <section class="birthday-section">
-      <h2>Бронирование на День Рождения и Праздники</h2>
-      <ul>
-        <li><strong>Обычные столики:</strong> можно бронировать, кухня будет наша. С собой можно обычную воду и торт. По желанию можно заранее украсить зал к празднику.</li>
-        <li><strong>ВИП-зона:</strong> если кухня наша — бронирование бесплатно, оплачивается только еда. С собой можно воду и торт. Украшения — по вашему вкусу заранее. <strong>Если кухня не наша:</strong> стоимость аренды ВИП-зоны — 700₽/час.</li>
+<footer class="footer-section text-white" style="height: 220px; background-color: #82498E; background-image: url('img/Footer.png'); background-repeat: no-repeat; background-size: cover; font-family: 'Raleway', sans-serif; font-weight: 100;">
+  <div class="container h-100">
+    <div class="d-flex flex-column justify-content-between h-100 py-3">
 
-      </ul>
-      <p><strong>Важно:</strong> бронировать желательно минимум за <strong>3 дня</strong>, так как места могут закончиться.</p>
-    </section>
-    <h2 class="fw-semibold mb-4">Записаться</h2>
-    <p class="mb-4">Оставьте заявку, и мы свяжемся с вами!</p>
+      <!-- Верхний блок -->
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
 
-    <form action="https://formsubmit.co/kid_20_20@mail.ru" method="POST" class="row g-3 justify-content-center">
-      <input type="hidden" name="_captcha" value="false">
-      <div class="col-md-4">
-        <label for="name" class="form-label visually-hidden">Имя</label>
-        <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя" required>
+        <!-- Лого -->
+        <div class="d-flex align-items-center me-3 mb-2 mb-md-0">
+          <img src="img/LogoV2.png" alt="Игромир" style="height: 67px; width: auto;">
+        </div>
+
+        <!-- Телефон и мессенджеры -->
+        <div class="d-flex flex-wrap align-items-center text-center justify-content-center flex-grow-1">
+          <div class="text-white me-3" style="font-size: 18px;">+7 (960) 358-27-31</div>
+          <div class="text-white me-4" style="font-size: 14px;">Общий телефон центра</div>
+
+          <!-- Иконки -->
+          <a href="https://wa.me/79603582731" class="mx-2">
+            <img src="img/ws.png" alt="WhatsApp" width="30" height="30">
+          </a>
+          <a href="https://vk.com/club91030024" class="mx-2">
+            <img src="img/vk.png" alt="VK" width="30" height="30">
+          </a>
+          <a href="https://t.me/igromir_volsk" class="mx-2">
+            <img src="img/tg.png" alt="Telegram" width="30" height="30">
+          </a>
+
+          <div class="text-white ms-3" style="font-size: 14px;">— звоните, пишите</div>
+        </div>
+
+        <!-- Кнопка -->
+        <div class="d-flex align-items-center ms-3 mt-3 mt-md-0">
+          <a href="https://wa.me/79603582731" target="_blank" class="btn btn-outline-light d-flex align-items-center justify-content-center"
+             style="width: 250px; height: 45px; border-radius: 87px; font-weight: 100; font-size: 16px;">
+            Работа у нас
+          </a>
+        </div>
       </div>
 
-      <div class="col-md-4">
-        <label for="phone" class="form-label visually-hidden">Телефон</label>
-        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Телефон" required>
+      <!-- Нижний текст -->
+      <div class="text-center mt-2" style="font-size: 14px;">
+        2025 © ООО «ИгроМир»
       </div>
-
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Отправить</button>
-      </div>
-    </form>
-
-    <p>Или звоните по номеру: <span class="copyable">+7 (960) 358-27-31</span></p>
-
+    </div>
   </div>
-</section>
-
-<footer class="bg-dark text-white text-center py-4 mt-5">
-  <p class="mb-0">&copy; 2025 Детский центр "Игромир"</p>
 </footer>
 
 
-
-
 <script src="js/app.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.copyable').forEach(function (el) {
-      el.addEventListener('click', function () {
-        navigator.clipboard.writeText(el.innerText).then(() => {
-          alert('Номер скопирован в буфер обмена!');
-        });
-      });
-    });
-  });
-</script>
-<script>
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
-</script>
-<script>
-  document.addEventListener("copy", function (e) {
-    e.preventDefault();
-  });
-  document.addEventListener("selectstart", function (e) {
-    e.preventDefault();
-  });
-</script>
 
+
+<script>
+  async function loadDrinksFromTable() {
+    const response = await fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vTBP2fk_hJAU7u0OSQmnrfo5BTvjtHbscr0a49tgqEC9lo7c7xNSwyo6Qov5DfAPFqm36NVmr12XN8w/pub?output=csv");
+    const data = await response.text();
+
+    const rows = data.split('\n').slice(1); // Пропустить заголовок
+    const categories = {};
+
+    for (let row of rows) {
+      const [category, name, description, price] = row.split(',');
+
+      if (!categories[category]) {
+        categories[category] = [];
+      }
+
+      categories[category].push({ name, description, price });
+    }
+
+    const container = document.getElementById('drinks-container');
+    for (let category in categories) {
+      const col = document.createElement('div');
+      col.className = 'col';
+
+      const card = document.createElement('div');
+      card.className = 'card h-100 shadow-sm';
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+
+      const title = document.createElement('h5');
+      title.className = 'card-title';
+      title.innerText = category;
+      body.appendChild(title);
+
+      categories[category].forEach(item => {
+        const itemTitle = document.createElement('h5');
+        itemTitle.className = 'card-title';
+        itemTitle.innerText = `${item.name} — ${item.price}`;
+
+        body.appendChild(itemTitle);
+
+        if (item.description) {
+          const desc = document.createElement('p');
+          desc.className = 'card-text';
+          desc.innerText = item.description;
+          body.appendChild(desc);
+        }
+      });
+
+      card.appendChild(body);
+      col.appendChild(card);
+      container.appendChild(col);
+    }
+  }
+
+  loadDrinksFromTable();
+</script>
 
 </body>
 
