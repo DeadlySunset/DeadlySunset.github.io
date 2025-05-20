@@ -33,6 +33,7 @@ body {
 .header-text {
   display: flex;
   gap: 40px;
+  font-weight: 100;
 }
 
 .info-block {
