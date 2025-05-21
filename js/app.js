@@ -52,3 +52,27 @@ window.addEventListener('DOMContentLoaded', () => {
     simpleSheet: true
   });
 });
+
+
+// Запрет выделения текста
+document.addEventListener('selectstart', e => e.preventDefault());
+
+// Запрет контекстного меню (правый клик)
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+// Запрет сочетаний клавиш Ctrl+C, Ctrl+X, Ctrl+S, Ctrl+U, Ctrl+A
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey) {
+    const forbiddenKeys = ['c', 'x', 's', 'u', 'a'];
+    if (forbiddenKeys.includes(e.key.toLowerCase())) {
+      e.preventDefault();
+      alert('Копирование запрещено!');
+    }
+  }
+});
+
+// Запрет перетаскивания картинок
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('dragstart', e => e.preventDefault());
+});
+
